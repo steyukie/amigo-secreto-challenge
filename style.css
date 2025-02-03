@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #f8d8ff;
+    --color-secondary: #6358b3;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #e377fc;
+    --color-button-hover: #e9a3f8;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -17,7 +17,8 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background: #ea9dfc;
+    background: linear-gradient(223deg, #ea9cfc 0%, #6358b3 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,11 +40,15 @@ body {
     padding: 40px 0 0;
 }
 
+header img {
+    max-width: 200px;
+}
+
 /* Seção de entrada */
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: none;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
@@ -56,13 +61,12 @@ body {
 .main-title {
     font-size: 48px;
     font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
+    font-weight: 600;
     color: var(--color-white);
 }
 
 .section-title {
-    font-family: "Inter", serif;
+    font-family: "Inter", sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
@@ -82,7 +86,7 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: none;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -97,7 +101,7 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #333;
+    border: none;
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
@@ -109,7 +113,7 @@ button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    border: 2px solid #000;
+    border: none;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -123,6 +127,7 @@ button {
 
 .button-add:hover {
     background-color: #a1a1a1;
+    transition: ease 0.3s;
 }
 
 /* Listas */
@@ -136,7 +141,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: var(--color-primary);
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +164,5 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+    transition: ease 0.3s;
 }

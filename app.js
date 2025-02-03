@@ -64,3 +64,4 @@ function limparLista() {
     adicionarLista();
     resultado.innerHTML = "";
 }
+
