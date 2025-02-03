@@ -1,6 +1,6 @@
 :root {
-    --color-primary: #f8d8ff;
-    --color-secondary: #6358b3;
+    --color-primary: #ffffff;
+    --color-secondary: #181818;
     --color-tertiary: #C4C4C4;
     --color-button: #e377fc;
     --color-button-hover: #e9a3f8;
@@ -17,8 +17,8 @@
 
 body {
     height: 100vh;
-    background: #ea9dfc;
-    background: linear-gradient(223deg, #ea9cfc 0%, #6358b3 100%);
+    background: rgb(234,157,252);
+    background: radial-gradient(circle, rgba(234,157,252,1) 0%, rgba(99,88,179,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,7 @@ header img {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 36px;
     font-family: "Merriweather", serif;
     font-weight: 600;
     color: var(--color-white);
@@ -67,7 +67,7 @@ header img {
 
 .section-title {
     font-family: "Inter", sans-serif;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
     color: var(--color-primary);
     margin: 10px 0;
@@ -133,7 +133,7 @@ button {
 /* Listas */
 ul {
     list-style-type: none;
-    color: var(--color-text);
+    color: var(--color-primary);
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
