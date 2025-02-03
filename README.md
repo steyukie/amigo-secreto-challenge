@@ -1,5 +1,6 @@
 # Challenge - Amigo Secreto
 Desenvolvido como parte de um challenge de lógica de programação no programa Alura + Oracle Next Education
+![Captura de tela do projeto Amigo Secreto](https://github.com/steyukie/amigo-secreto-challenge/blob/main/assets/screenshot.png)
 
 ## Tecnologias
 
